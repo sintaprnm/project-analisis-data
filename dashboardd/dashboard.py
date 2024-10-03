@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-day_data = pd.read_csv('day.csv')
+day_data = pd.read_csv('dashboard/day.csv')
 
 np.random.seed(0)
 humidity = np.random.rand(500)
